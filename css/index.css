@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Header */
+
+.header {
+  background: url("../assets/header/header-background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: red;
+  height: 39.2rem;
+}
+
+.imagens-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.star-logo {
+  width: 20%;
+  position: absolute;
+  top: 45%;
+  left: 20.5%;
+}
+
+.hero-image {
+  width: 65%;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  z-index: 10;
+}
+
+.wars-logo {
+  width: 20%;
+  position: absolute;
+  top: 45%;
+  right: 19%;
+}
+
+.aside-image {
+  width: 9%;
+  position: absolute;
+  top: 60%;
+  right: 16%;
+}
+
+/* Main */
+
+.how-to-play {
+  height: 500px;
+  background: url("../assets/body/body-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.start-to-play {
+  width: 150px;
+}
+
+.about-the-game {
+  width: 150px;
+}
