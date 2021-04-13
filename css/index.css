@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
 
 /* Header */
@@ -33,7 +35,7 @@
   position: absolute;
   top: 5%;
   left: 10%;
-  z-index: 10;
+  z-index: 2;
 }
 
 .wars-logo {
@@ -53,16 +55,175 @@
 /* Main */
 
 .how-to-play {
-  height: 500px;
+  height: 1100px;
   background: url("../assets/body/body-bg.png");
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .start-to-play {
-  width: 150px;
+  width: 320px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: url("../assets/body/about-game.png");
+  background-size: cover;
+  position: absolute;
+  top: -4.5%;
+  left: 11%;
+  z-index: 3;
+}
+.start-to-play h1 {
+  width: 45%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.start-to-play p {
+  width: 85%;
+  color: #fff;
+  opacity: 70%;
+}
+.start-to-play button {
+  padding: 0.5rem 2rem;
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 5px;
+  opacity: 80%;
 }
 
+/* About the Game */
+
 .about-the-game {
-  width: 150px;
+  width: 760px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 7%;
+  top: 22.6%;
+  text-align: end;
+}
+
+.about-the-game h2 {
+  text-transform: uppercase;
+}
+
+.about-the-game img {
+  width: 320px;
+  height: 180px;
+}
+.about-the-game section {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.about-the-game h2 {
+  font-weight: 700;
+}
+.about-the-game hr {
+  width: 35%;
+  border: 1px solid black;
+  align-self: flex-end;
+}
+
+.first-divider {
+  width: 80%;
+  position: absolute;
+  top: 48%;
+  border: 2px solid rgb(70, 67, 67);
+  align-self: center;
+}
+
+/* Game Structure */
+
+.game-structure {
+  height: 10rem;
+  position: relative;
+  top: 40%;
+}
+.game-structure-hero-image-1 {
+  width: 40%;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+.game-structure-hero-image-2 {
+  width: 19%;
+  position: absolute;
+  top: 110%;
+  right: 12%;
+}
+.game-structure-list {
+  width: 22rem;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  left: 40%;
+  top: 100%;
+  text-align: end;
+}
+
+.game-structure-list h2 {
+  width: 80%;
+  font-weight: 600;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.game-structure-list h2 span {
+  font-weight: 700;
+}
+.game-structure-list p {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+}
+.game-structure-list ul {
+  margin-top: 20px;
+}
+.game-structure-list ul li {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  padding: 5px;
+}
+.game-structure-list ul li:hover {
+  color: #fff;
+  background-color: #db1439;
+  cursor: pointer;
+}
+
+/* Media queries */
+
+@media (max-width: 1024px) {
+  .header {
+    height: 27.874rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 20.875rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    height: 11.563rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    height: 10.188rem;
+  }
 }
