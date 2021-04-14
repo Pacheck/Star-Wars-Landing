@@ -56,12 +56,12 @@
 
 .how-to-play {
   height: 1100px;
-  background: url("../assets/body/body-bg.png");
-  background-size: contain;
-  background-repeat: no-repeat;
   position: relative;
   display: flex;
   flex-direction: column;
+  background: url("../assets/body/body-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .start-to-play {
@@ -107,7 +107,7 @@
   justify-content: space-evenly;
   position: absolute;
   right: 7%;
-  top: 22.6%;
+  top: 20%;
   text-align: end;
 }
 
@@ -145,20 +145,21 @@
 /* Game Structure */
 
 .game-structure {
-  height: 10rem;
+  min-height: 50rem;
+  height: 50rem;
   position: relative;
   top: 40%;
 }
 .game-structure-hero-image-1 {
   width: 40%;
   position: absolute;
-  top: 80%;
+  top: 17%;
   left: 10%;
 }
 .game-structure-hero-image-2 {
   width: 19%;
   position: absolute;
-  top: 110%;
+  top: 25%;
   right: 12%;
 }
 .game-structure-list {
@@ -169,7 +170,7 @@
   align-items: flex-end;
   position: absolute;
   left: 40%;
-  top: 100%;
+  top: 26%;
   text-align: end;
 }
 
@@ -200,6 +201,169 @@
   color: #fff;
   background-color: #db1439;
   cursor: pointer;
+}
+
+/*  Download area  */
+
+.download {
+  position: relative;
+}
+.download-image {
+  width: 27%;
+  position: relative;
+  left: 9%;
+}
+
+.download-image img {
+  width: 100%;
+}
+
+/* Attributes */
+
+.attributes {
+  min-height: 113rem;
+  height: 125rem;
+  position: relative;
+  top: 27.3%;
+  z-index: -1;
+  bottom: 0;
+  background-color: #2d2d2d;
+}
+.attributes > h2 {
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  font-size: 35px;
+}
+
+.all-images {
+  width: 95%;
+  display: flex;
+  position: absolute;
+  top: 14%;
+  left: 5%;
+}
+.all-images .group-one {
+  width: 60%;
+}
+.all-images .group-one img {
+  width: 100%;
+  height: 99%;
+}
+
+.all-images .group-two {
+  width: 70%;
+  position: relative;
+}
+.all-images .group-two #filtro {
+  width: 21rem;
+  position: absolute;
+  top: -1%;
+  left: -1%;
+}
+.all-images .group-two img {
+  width: 20rem;
+}
+
+.image-divider {
+  position: absolute;
+  top: 42%;
+  left: 10%;
+}
+
+.image-divider img {
+  width: 90%;
+}
+
+.details {
+  position: absolute;
+  bottom: 8%;
+  left: 42%;
+}
+.details h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 35px;
+}
+
+.download .buttons {
+  width: 49rem;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 40%;
+  top: 70%;
+}
+.download .buttons div {
+  height: 12.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all ease 0.8s;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+}
+.download .buttons div:hover h2:not(:hover) {
+  font-weight: 700;
+}
+.download .buttons div h2 {
+  font-size: 35px;
+  font-weight: 300;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+}
+.download .buttons button {
+  width: 12rem;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #31302b;
+  transition: all ease 0.8s;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+}
+.download .buttons div:hover button:hover {
+  box-shadow: inset 200px 0 0 0 #bd0f0f;
+  color: #fff;
+}
+.download .buttons div p {
+  width: 9rem;
+  text-align: center;
+}
+.download .buttons div span {
+  width: 4rem;
+  height: 0.3rem;
+  background-color: #222;
+  box-shadow: inset 0 0 0 0 #31302b;
+  transition: all ease 0.8s;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+}
+.download .buttons div:hover span:not(:hover) {
+  box-shadow: inset 4rem 0 0 0 #e41d1d;
+  color: #fff;
+}
+
+/* Footer */
+
+footer {
+  width: 70%;
+  background-color: #ff5a56;
+  position: absolute;
+  top: 490%;
+}
+
+footer .darth-vader-footer {
 }
 
 /* Media queries */
