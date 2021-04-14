@@ -357,13 +357,63 @@
 /* Footer */
 
 footer {
-  width: 70%;
+  width: 62%;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #ff5a56;
   position: absolute;
-  top: 490%;
+  top: 508%;
+  color: #fff;
 }
 
 footer .darth-vader-footer {
+  width: 70%;
+  position: absolute;
+  left: 81%;
+  bottom: 4%;
+}
+
+footer .darth-vader-footer img {
+  width: 100%;
+}
+footer .aplicativos,
+.footer-info {
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 3rem 0rem;
+}
+footer .aplicativos h2 {
+  font-size: 37px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer .aplicativos .app-icons {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+}
+footer .aplicativos .app-icons img {
+  width: 40%;
+}
+
+footer .footer-divider {
+  border: solid 2px #d74430;
+  width: 50%;
+}
+
+footer .footer-info .info-icons {
+  width: 40%;
+  padding-bottom: 2rem;
+}
+footer .footer-info .info-icons img {
+  width: 100%;
 }
 
 /* Media queries */
