@@ -70,8 +70,8 @@
 }
 
 .start-to-play {
-  width: 320px;
-  height: 450px;
+  width: 20rem;
+  height: 28.125rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -338,7 +338,7 @@
   -moz-transition: all ease 0.8s;
 }
 .download .buttons div:hover button:hover {
-  box-shadow: inset 200px 0 0 0 #bd0f0f;
+  box-shadow: inset -200px 0 0 0 #bd0f0f;
   color: #fff;
 }
 .download .buttons div p {
@@ -355,7 +355,7 @@
   -moz-transition: all ease 0.8s;
 }
 .download .buttons div:hover span:not(:hover) {
-  box-shadow: inset 4rem 0 0 0 #e41d1d;
+  box-shadow: inset -4rem 0 0 0 #e41d1d;
   color: #fff;
 }
 
@@ -422,6 +422,64 @@ footer .footer-info .info-icons img {
 }
 
 /* Media queries */
+@media (min-width: 1441px) {
+  .header {
+    background: url("../assets/header/header-background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+    height: 50.5rem;
+  }
+
+  .about-the-game {
+    top: 5.3%;
+  }
+
+  .game-structure {
+    height: 78rem;
+  }
+  .game-structure-list {
+    width: 30rem;
+    left: 37%;
+    bottom: 14%;
+  }
+  .game-structure-list h2 {
+    width: 60%;
+  }
+  .game-structure-list ul li {
+    font-size: 25px;
+  }
+
+  .first-divider {
+    top: 40%;
+  }
+
+  .attributes {
+    height: 145rem;
+  }
+
+  .all-images .group-two {
+    width: 68%;
+  }
+  .all-images .group-two img {
+    width: 25.3rem;
+  }
+  .all-images .group-two #filtro {
+    width: 27rem;
+    top: -2%;
+  }
+
+  .image-divider {
+    left: 5%;
+  }
+  .image-divider img {
+    width: 100%;
+  }
+
+  .download {
+    height: 44rem;
+  }
+}
 
 @media (max-width: 1024px) {
   .header {
