@@ -54,12 +54,17 @@
 
 /* Main */
 
+.background-container {
+  background: url("../assets/body/body-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .how-to-play {
-  height: 1100px;
   position: relative;
   display: flex;
   flex-direction: column;
-  background: url("../assets/body/body-bg.png");
+
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -74,7 +79,7 @@
   background: url("../assets/body/about-game.png");
   background-size: cover;
   position: absolute;
-  top: -4.5%;
+  top: -1%;
   left: 11%;
   z-index: 3;
 }
@@ -107,7 +112,7 @@
   justify-content: space-evenly;
   position: absolute;
   right: 7%;
-  top: 20%;
+  top: 6.6%;
   text-align: end;
 }
 
@@ -136,8 +141,9 @@
 
 .first-divider {
   width: 80%;
-  position: absolute;
-  top: 48%;
+  position: relative;
+  top: 43%;
+  left: 12%;
   border: 2px solid rgb(70, 67, 67);
   align-self: center;
 }
@@ -145,21 +151,20 @@
 /* Game Structure */
 
 .game-structure {
-  min-height: 50rem;
-  height: 50rem;
+  height: 67rem;
   position: relative;
   top: 40%;
 }
 .game-structure-hero-image-1 {
   width: 40%;
   position: absolute;
-  top: 17%;
+  bottom: -4%;
   left: 10%;
 }
 .game-structure-hero-image-2 {
   width: 19%;
   position: absolute;
-  top: 25%;
+  bottom: -5%;
   right: 12%;
 }
 .game-structure-list {
@@ -170,7 +175,7 @@
   align-items: flex-end;
   position: absolute;
   left: 40%;
-  top: 26%;
+  bottom: 4%;
   text-align: end;
 }
 
@@ -207,10 +212,12 @@
 
 .download {
   position: relative;
+  height: 27rem;
 }
 .download-image {
   width: 27%;
   position: relative;
+  top: -18rem;
   left: 9%;
 }
 
@@ -221,10 +228,8 @@
 /* Attributes */
 
 .attributes {
-  min-height: 113rem;
-  height: 125rem;
+  height: 115rem;
   position: relative;
-  top: 27.3%;
   z-index: -1;
   bottom: 0;
   background-color: #2d2d2d;
@@ -241,7 +246,7 @@
 .all-images {
   width: 95%;
   display: flex;
-  position: absolute;
+  position: relative;
   top: 14%;
   left: 5%;
 }
@@ -269,7 +274,7 @@
 
 .image-divider {
   position: absolute;
-  top: 42%;
+  top: 40%;
   left: 10%;
 }
 
@@ -294,7 +299,7 @@
   justify-content: space-between;
   position: absolute;
   left: 40%;
-  top: 70%;
+  top: 16%;
 }
 .download .buttons div {
   height: 12.188rem;
@@ -364,8 +369,7 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: #ff5a56;
-  position: absolute;
-  top: 508%;
+  position: relative;
   color: #fff;
 }
 
@@ -401,6 +405,7 @@ footer .aplicativos .app-icons {
 }
 footer .aplicativos .app-icons img {
   width: 40%;
+  margin: 0rem 0.5rem;
 }
 
 footer .footer-divider {
