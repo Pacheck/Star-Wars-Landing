@@ -338,7 +338,7 @@
   -moz-transition: all ease 0.8s;
 }
 .download .buttons div:hover button:hover {
-  box-shadow: inset -200px 0 0 0 #bd0f0f;
+  box-shadow: inset -12.5rem 0 0 0 #bd0f0f;
   color: #fff;
 }
 .download .buttons div p {
@@ -427,7 +427,7 @@ footer .footer-info .info-icons img {
     background: url("../assets/header/header-background.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
+    background-color: red; /* remover no fim do projeto */
     height: 50.5rem;
   }
 
@@ -484,6 +484,133 @@ footer .footer-info .info-icons img {
 @media (max-width: 1024px) {
   .header {
     height: 27.874rem;
+  }
+
+  .imagens-header .star-logo {
+    width: 25%;
+    top: 29%;
+    left: 15.5%;
+  }
+  .imagens-header .hero-image {
+    top: 2%;
+    left: 10%;
+  }
+  .imagens-header .wars-logo {
+    width: 25%;
+    top: 29%;
+    right: 13%;
+  }
+  .imagens-header .aside-image {
+    width: 8%;
+    top: 41%;
+  }
+
+  .about-the-game {
+    width: 23.75rem;
+    height: 23.063rem;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+    top: 1.5%;
+  }
+  .about-the-game section {
+    width: 100%;
+  }
+
+  .game-structure-hero-image-1 {
+    width: 50%;
+    bottom: -4%;
+    left: 7%;
+  }
+  .game-structure-hero-image-2 {
+    width: 25%;
+    bottom: -5%;
+    right: 8%;
+  }
+  .game-structure-list {
+    left: 32%;
+    bottom: 2%;
+  }
+  .game-structure-list h2 {
+    width: 70%;
+    font-size: 36px;
+  }
+  .game-structure-list ul li {
+    font-size: 17px;
+  }
+
+  .attributes {
+    height: 145rem;
+  }
+
+  .all-images {
+    width: 100%;
+    left: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .all-images .group-one {
+    width: 85.3%;
+    position: relative;
+    left: 1%;
+  }
+  .all-images .group-one img {
+    width: 100%;
+    height: 99%;
+  }
+  .all-images .group-two {
+    width: 85.5%;
+    position: relative;
+    left: 1%;
+  }
+  .all-images .group-two img {
+    width: 27.2rem;
+  }
+  .all-images .group-two #filtro {
+    width: 28.5rem;
+  }
+
+  .image-divider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: unset;
+    left: unset;
+    bottom: 14%;
+  }
+  .image-divider img {
+    width: 86%;
+    position: relative;
+    left: 1%;
+  }
+
+  .download {
+    height: 22rem;
+  }
+  .download .download-image {
+    width: 32%;
+    top: -16rem;
+    left: 5%;
+  }
+  .download .buttons {
+    width: 37rem;
+    left: 36%;
+    top: 5%;
+  }
+
+  .download .buttons div h2 {
+    font-size: 30px;
+  }
+  .download .buttons div button {
+    width: 9rem;
+    font-size: 15px;
+  }
+
+  footer {
+    height: 38rem;
+  }
+  .darth-vader-footer {
   }
 }
 
