@@ -64,7 +64,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-
+  z-index: 1;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -252,24 +252,38 @@
 }
 .all-images .group-one {
   width: 60%;
+  cursor: pointer;
 }
 .all-images .group-one img {
-  width: 100%;
-  height: 99%;
+  width: 98%;
+  height: 98%;
+}
+
+.all-images .group-one #filtro:hover {
+  background-color: tomato;
+  background: url("../assets/body/novos-graficos.svg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .all-images .group-two {
   width: 70%;
   position: relative;
-}
-.all-images .group-two #filtro {
-  width: 21rem;
-  position: absolute;
-  top: -1%;
-  left: -1%;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
 }
 .all-images .group-two img {
   width: 20rem;
+  z-index: 12;
+}
+
+.all-images .group-two #filtro:hover {
+  background-color: tomato;
+  background: url("../assets/body/novos-graficos.svg");
+  background-size: cover;
 }
 
 .image-divider {
@@ -458,14 +472,25 @@ footer .footer-info .info-icons img {
     height: 145rem;
   }
 
+  .all-images .group-one #filtro {
+    height: 33rem;
+  }
+
   .all-images .group-two {
     width: 68%;
+    display: flex;
+    flex-wrap: wrap;
   }
   .all-images .group-two img {
     width: 25.3rem;
   }
+
   .all-images .group-two #filtro {
-    width: 27rem;
+    width: 26rem;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: -2%;
   }
 
@@ -568,7 +593,8 @@ footer .footer-info .info-icons img {
     width: 27.2rem;
   }
   .all-images .group-two #filtro {
-    width: 28.5rem;
+    width: 27.2rem;
+    height: 16.5rem;
   }
 
   .image-divider {
