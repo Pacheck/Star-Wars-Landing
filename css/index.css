@@ -121,8 +121,8 @@
 }
 
 .about-the-game img {
-  width: 320px;
-  height: 180px;
+  width: 20rem;
+  height: 11.25rem;
 }
 .about-the-game section {
   width: 50%;
@@ -526,8 +526,8 @@ footer .footer-info .info-icons img {
     right: 13%;
   }
   .imagens-header .aside-image {
-    width: 8%;
-    top: 41%;
+    width: 7%;
+    top: 36%;
   }
 
   .about-the-game {
@@ -643,6 +643,68 @@ footer .footer-info .info-icons img {
 @media (max-width: 768px) {
   .header {
     height: 20.875rem;
+  }
+
+  .imagens-header .star-logo {
+    top: 18%;
+    left: 15.5%;
+  }
+  .imagens-header .wars-logo {
+    top: 18%;
+    right: 13%;
+  }
+  .imagens-header .aside-image {
+    width: 7%;
+    top: 24%;
+  }
+
+  .how-to-play .start-to-play {
+    width: 23rem;
+    height: 34.125rem;
+    top: 1%;
+    left: 45%;
+  }
+
+  .background-container .about-the-game {
+    width: 25.75rem;
+    height: 24.063rem;
+    top: 15%;
+    text-align: start;
+  }
+  .background-container .about-the-game section {
+    width: 90%;
+  }
+  .background-container .about-the-game hr {
+    align-self: flex-start;
+  }
+
+  .background-container .about-the-game img {
+    width: 23.125rem;
+    height: 17.5rem;
+  }
+
+  .background-container .game-structure {
+    height: 92rem;
+  }
+
+  .game-structure .first-divider {
+    top: 70%;
+  }
+  .game-structure-hero-image-1 {
+    width: 53%;
+    left: 4%;
+  }
+  .game-structure-hero-image-2 {
+    width: 27%;
+    right: 4%;
+  }
+  .game-structure-list {
+    left: 26%;
+    bottom: -1%;
+  }
+
+  .download .buttons {
+    left: 22%;
   }
 }
 
