@@ -743,7 +743,7 @@ footer .footer-info .info-icons img {
 
   footer .darth-vader-footer {
     width: 81%;
-    left: 81%;
+    left: 80%;
     bottom: 14%;
   }
 }
@@ -757,5 +757,156 @@ footer .footer-info .info-icons img {
 @media (max-width: 375px) {
   .header {
     height: 10.188rem;
+  }
+  .star-logo {
+    top: 10.5%;
+    left: 16.5%;
+  }
+  .hero-image {
+    top: 0%;
+    left: 9%;
+    width: 70%;
+  }
+  .wars-logo {
+    top: 10.8%;
+    right: 12%;
+  }
+  .aside-image {
+    width: 16%;
+    top: 16%;
+    z-index: 20;
+    right: 8%;
+  }
+
+  .start-to-play {
+    width: 16rem;
+    height: 24.125rem;
+    top: 1%;
+    left: 25%;
+  }
+  .start-to-play h1 {
+    width: 47%;
+    font-size: 1.5rem;
+  }
+  .start-to-play p {
+    width: 77%;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  .how-to-play .start-to-play {
+    width: 14rem;
+    height: 22.063rem;
+    top: 2%;
+    left: 33%;
+  }
+  .how-to-play .start-to-play h1 {
+    width: 38%;
+    font-size: 1.1rem;
+  }
+  .how-to-play .start-to-play p {
+    width: 66%;
+    font-size: 10px;
+  }
+  .how-to-play .start-to-play button {
+    font-size: 8px;
+    padding: 5px 13px;
+  }
+  .background-container .about-the-game {
+    height: 340px;
+    top: 16%;
+  }
+  .background-container .about-the-game img {
+    width: 12.125rem;
+    height: 7.5rem;
+  }
+  .background-container .about-the-game section {
+    width: 76%;
+    height: 190px;
+    text-align: end;
+  }
+  .background-container .about-the-game sectopm h2 {
+    font-size: larger;
+  }
+  .background-container .about-the-game section hr {
+    align-self: flex-end;
+  }
+  .background-container .about-the-game section p {
+    font-size: 14px;
+  }
+
+  .background-container .game-structure {
+    height: 67rem;
+  }
+
+  .background-container .game-structure-hero-image-1 {
+    width: 47%;
+    top: unset;
+    left: 3%;
+    bottom: -4%;
+  }
+  .background-container .game-structure-hero-image-2 {
+    width: 23%;
+    top: unset;
+    right: 3%;
+    bottom: -4%;
+  }
+
+  .background-container .game-structure-list {
+    left: -23%;
+    bottom: -24%;
+  }
+  .background-container .game-structure-list h2 {
+    width: 36%;
+    font-size: 13px;
+  }
+  .background-container .game-structure-list ul {
+    margin-top: 0;
+  }
+  .background-container .game-structure-list ul li {
+    font-size: 8px;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  .game-structure .first-divider {
+    top: 79%;
+  }
+  .game-structure-hero-image-1 {
+    top: 61%;
+    width: 42%;
+    left: 3%;
+  }
+  .game-structure-hero-image-2 {
+    width: 19%;
+    right: 4%;
+    top: 62.5%;
+  }
+  .game-structure-list {
+    left: -6%;
+    bottom: -1%;
+  }
+
+  .all-images .group-two #filtro {
+    width: 42.2rem;
+    height: 12.3rem;
+  }
+
+  .attributes {
+    height: 104rem;
+  }
+
+  .image-divider img {
+    width: 100%;
+    left: unset;
+  }
+
+  /*  */
+
+  .download .buttons {
+    width: auto;
+    top: -27%;
+    left: 10%;
+    flex-direction: column;
   }
 }
