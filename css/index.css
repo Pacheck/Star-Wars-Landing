@@ -13,7 +13,6 @@
   background: url("../assets/header/header-background.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: red;
   height: 39.2rem;
 }
 
@@ -441,8 +440,7 @@ footer .footer-info .info-icons img {
     background: url("../assets/header/header-background.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red; /* remover no fim do projeto */
-    height: 50.5rem;
+    height: 52.2rem;
   }
 
   .about-the-game {
@@ -870,7 +868,7 @@ footer .footer-info .info-icons img {
   }
 
   .game-structure .first-divider {
-    top: 79%;
+    top: 81%;
   }
   .game-structure-hero-image-1 {
     top: 61%;
@@ -901,12 +899,75 @@ footer .footer-info .info-icons img {
     left: unset;
   }
 
+  .attributes .details {
+    left: 44%;
+    bottom: 3%;
+  }
+  .attributes .details h2 {
+    font-size: 23px;
+  }
   /*  */
-
+  .download .download-image {
+    width: 99%;
+    top: -7rem;
+    left: -40%;
+  }
   .download .buttons {
     width: auto;
-    top: -27%;
-    left: 10%;
+    top: 4%;
+    left: 53%;
     flex-direction: column;
+  }
+  .download .buttons div {
+    height: 8.188rem;
+  }
+  .download .buttons div h2 {
+    font-size: 25px;
+  }
+  .download .buttons div button {
+    width: 8rem;
+    font-size: 14px;
+    padding: 7px 9px;
+  }
+  .download .buttons div p {
+    font-size: 12px;
+  }
+
+  footer {
+    width: 100%;
+    height: 43rem;
+  }
+  footer .aplicativos,
+  .footer-info {
+    margin: 0;
+  }
+
+  footer .aplicativos h2 {
+    font-size: 50px;
+  }
+  footer .aplicativos p {
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 77%;
+    width: 90%;
+  }
+
+  footer .footer-divider {
+    margin: 20px 0px;
+  }
+
+  footer .footer-info .info-icons {
+    align-self: center;
+  }
+  footer .footer-info p {
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 77%;
+    width: 90%;
+  }
+  footer .darth-vader-footer {
+    width: 81%;
+    left: 4%;
+    bottom: -40%;
   }
 }
